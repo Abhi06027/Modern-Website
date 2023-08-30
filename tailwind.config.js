@@ -11,7 +11,6 @@ module.exports = {
         palanquin: ["Palanquin", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
-      backgroundImage: {},
     },
   },
   plugins: [],
