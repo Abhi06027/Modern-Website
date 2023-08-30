@@ -17,7 +17,7 @@ const CustomLinks = ({ href, title, className = "" }) => {
 
       <span
         className={
-          "h-[1px] w-0 inline-block  absolute bg-white left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300"
+          "h-[1px] w-0 inline-block absolute bg-white left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300"
         }
       >
         &nbsp;

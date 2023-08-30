@@ -28,7 +28,7 @@ const ExploreCard = ({ title, imgUrl, id, index, active, handleClick }) => {
           {title}
         </h3>
       ) : (
-        <div className=" absolute  bottom-0 rounded-b-[24px] bg-[rgba(0,0,0,0.5)]  object-cover  w-full p-8">
+        <div className=" absolute bottom-0 rounded-b-[24px] bg-[rgba(0,0,0,0.5)]  object-cover  w-full p-8">
           <h2 className="font-semibold text-[24px] sm:text-[28px] ">{title}</h2>
         </div>
       )}
