@@ -1,11 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-
-import styles from "@/styles";
 import { staggerContainer, fadeIn, planetVariants } from "@/utils/motion";
 import { TitleText, TypingText } from "../customText";
-import ExploreCard from "../exploreCard";
 import { startingFeatures } from "@/constants";
 import StartsSteps from "./StartsSteps";
 

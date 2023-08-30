@@ -1,9 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
-
 import { footerVariants } from "@/utils/motion";
-
 import { FooterLinks, socials } from "@/constants";
 import Abhinavcv from "./abhinavcv";
 
@@ -41,7 +38,7 @@ const Footer = () => {
                       <li key={links.name}>
                         <Link
                           href={links.link}
-                          className=" mt-3 font-montserrat text-base leading-normal cursor-pointer "
+                          className="mt-3 font-montserrat text-base leading-normal cursor-pointer "
                         >
                           {links.name}
                         </Link>
