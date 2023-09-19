@@ -73,7 +73,7 @@ const Navbar = () => {
         absolute left-0 top-[125px]  bg-white   w-full z-40 transition-all duration-500 ease-in md:z-auto rounded-md backdrop-blur-md py-32   text-black flex  flex-col items-center lg:hidden text-[20px]"
         >
           <CustomMobileLinks
-            href="/"
+            to="/"
             title="Home"
             className=""
             toggle={handleClick}
